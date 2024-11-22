@@ -6,17 +6,17 @@ st.title("Consultar informações de CNPJ's 🏢", anchor=False)
 
 if "resultado" not in st.session_state:
     st.session_state.resultado = {
-        "cnpj", "" ,
-        "uf", "" ,
-        "razao_social", "" ,
-        "nome_fatatasia", "" ,
-        "municipio", "" ,
-        "logradouro", "" ,
-        "natureza_juridica", "" ,
-        "situacao_especial", "" ,
-        "atividade_fiscal", "" ,
-        "situacao_cadastral", "" ,
-        "identificador_filial_matriz", "" 
+        "cnpj": "" ,
+        "uf": "" ,
+        "razao_social": "" ,
+        "nome_fatatasia": "" ,
+        "municipio": "" ,
+        "logradouro": "" ,
+        "natureza_juridica": "" ,
+        "situacao_especial": "" ,
+        "atividade_fiscal": "" ,
+        "situacao_cadastral": "" ,
+        "identificador_filial_matriz": "" 
     }
 
 col1, col2, col3 = st.columns(3)
